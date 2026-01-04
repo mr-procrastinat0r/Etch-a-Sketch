@@ -1,0 +1,34 @@
+{
+	margin: 0;
+	padding: 0;
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-container{
+	display: flex;
+    	width: 960px;
+    	height: 960px;
+	border: 2px solid black;
+    	background-color: white;
+	flex-wrap: wrap;
+}
+
+h2{
+	margin: 0;
+	text-align: center;
+}
+.btns{
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+.fullPage{
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	algin-items: center;
+}
